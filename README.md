@@ -1,2 +1,0 @@
-# minimalAPI
-Minimal API example
