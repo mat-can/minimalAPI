@@ -1,17 +1,30 @@
+using WebApi.Middlewares;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 
-List<ShoppingList> shopping = new List<ShoppingList>();
-if (shopping == null || !shopping.Any())
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
 {
-    shopping = Enumerable.Range(1, 5).Select(index => new ShoppingList()
-    {
-        Priority = Priorities.High,
-        Item = "Eggs"
-    }).ToList();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
-app.MapGet("/", () => "Hi, this is a Minimal API for a Shopping List.");
-app.MapGet("/list", () => shopping);
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+//app.UseWelcomePage();
+app.UseTimeMiddleware();
+
+app.MapControllers();
 
 app.Run();
