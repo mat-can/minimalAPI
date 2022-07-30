@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "c:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\danik\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"

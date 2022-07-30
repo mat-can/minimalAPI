@@ -29,22 +29,22 @@ public class WeatherForecastController : ControllerBase
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
-    [Route("get/ListWeather")]
-    [Route("[action]")]
-    public IEnumerable<WeatherForecast> Get()
+    //[Route("get/ListWeather")]
+    //[Route("[action]")]
+    public IEnumerable<WeatherForecast> GetWF()
     {
         return listWeather;
     }
 
     [HttpPost]
-    [Route("post/weather")]
+    //[Route("post/weather")]
     public IActionResult Post(WeatherForecast weather)
     {
         listWeather.Add(weather);
         return Ok();
     }
     [HttpDelete("{index}")]
-    [Route("delete/weather")]
+    //[Route("delete/weather")]
     public IActionResult Delete(int index)
     {
         try

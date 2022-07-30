@@ -12,7 +12,9 @@ namespace WebApi.Controllers
         {
             this.hiWorldInterface = hiWorldInterface;
         }
-        public IActionResult Get()
+        [HttpGet(Name = "GetHiWorld")]
+        //[Route("get/Hi")]
+        public IActionResult GetHi()
         {
             return Ok(hiWorldInterface.GetHiWorld());
         }
