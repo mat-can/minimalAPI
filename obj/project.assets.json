@@ -2000,11 +2000,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "c:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\minimalAPI\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\WebApi.csproj",
+      "projectPath": "c:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\minimalAPI\\WebApi.csproj",
       "packagesPath": "C:\\Users\\danik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\obj\\",
+      "outputPath": "c:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\minimalAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\danik\\AppData\\Roaming\\NuGet\\NuGet.Config",

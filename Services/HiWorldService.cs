@@ -2,7 +2,7 @@ using WebApi.Interfaces;
 
 namespace WebApi.Services
 {
-    public class HiWorldService : IHiWorldInterface
+    public class HiWorldService : IHiWorlService
     {
         public string GetHiWorld()
         {

@@ -7,16 +7,16 @@ namespace WebApi.Controllers
     [Route("api/[controller]")]
     public class HiWorldController : ControllerBase
     {
-        IHiWorldInterface hiWorldInterface;
-        public HiWorldController(IHiWorldInterface hiWorldInterface)
+        IHiWorlService hiWorldService;
+        public HiWorldController(IHiWorlService hiWorldInterface)
         {
-            this.hiWorldInterface = hiWorldInterface;
+            this.hiWorldService = hiWorldInterface;
         }
         [HttpGet(Name = "GetHiWorld")]
         //[Route("get/Hi")]
         public IActionResult GetHi()
         {
-            return Ok(hiWorldInterface.GetHiWorld());
+            return Ok(hiWorldService.GetHiWorld());
         }
     }
 }

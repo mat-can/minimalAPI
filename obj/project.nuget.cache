@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NYHhMePWKYl7eg5wlCIjBUQAzQzlMCkWhFYzlvx1vegNt8t+eiYfgccNAJ5RBTwoHrhwXf7gJdFromiuFFq7qA==",
+  "dgSpecHash": "lguUnWkwXKMLEj+8b4su+ceWREeNR0+zWqk1e6iXYrHIOqSRPjqYrEtAyBAX2Q31nfZVCybDKPy+wohhpVstjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\minimalAPI\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danik\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\danik\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

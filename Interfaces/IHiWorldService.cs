@@ -1,6 +1,6 @@
 namespace WebApi.Interfaces
 {
-    public interface IHiWorldInterface
+    public interface IHiWorlService
     {
         string GetHiWorld();
     }

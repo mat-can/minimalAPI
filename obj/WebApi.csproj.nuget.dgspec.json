@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\minimalAPI\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\minimalAPI\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\minimalAPI\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\minimalAPI\\WebApi.csproj",
         "packagesPath": "C:\\Users\\danik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\danik\\StudioProjects\\MAT\\NETCORE\\minimalAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danik\\AppData\\Roaming\\NuGet\\NuGet.Config",
